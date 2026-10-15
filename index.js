@@ -6,7 +6,7 @@ const APP_ID = 'App ID';
 
 // رابط الـ GIF المرفوع في GitHub (المستودع يجب أن يكون Public)
 const IMAGE_URL =
-  'https://raw.githubusercontent.com/gaiseric56/Discord-Activity/main/cover.gif';
+  'https://raw.githubusercontent.com/mxtkx1/Discord-Activity/main/cover.gif';
 
 // وقت البداية الثابت (بتوقيت بغداد +03:00): المؤقت يعدّ منه باستمرار
 // ولا يتصفّر عند إعادة تشغيل الـ workflow، ويصل إلى مئات الساعات.
