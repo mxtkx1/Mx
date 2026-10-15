@@ -2,7 +2,7 @@ const { Client, RichPresence } = require('discord.js-selfbot-v13');
 const client = new Client();
 
 // Application ID للتطبيق (Developer Portal)
-const APP_ID = '1476646850747699381';
+const APP_ID = 'App ID';
 
 // رابط الـ GIF المرفوع في GitHub (المستودع يجب أن يكون Public)
 const IMAGE_URL =
@@ -11,7 +11,7 @@ const IMAGE_URL =
 // وقت البداية الثابت (بتوقيت بغداد +03:00): المؤقت يعدّ منه باستمرار
 // ولا يتصفّر عند إعادة تشغيل الـ workflow، ويصل إلى مئات الساعات.
 // لتبدأ من الصفر: اكتب وقت رفعك للملف تقريباً بهذه الصيغة.
-const START_TIME = new Date('2026-10-13T18:34:00+03:00').getTime();
+const START_TIME = new Date('2026-10-15T19:59:00+03:00').getTime();
 
 async function setActivity() {
   try {
